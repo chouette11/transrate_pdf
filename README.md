@@ -4,6 +4,7 @@
 
 ## 使い方
 
-1. `.env.example` を `.env` に改名し、DeepLのAPI_KEYを入力する。
-2. 翻訳したいPDFをディレクトリに入れる。
-3. `main.py` を実行する。
+1. 必要なmoduleをインストールする 
+2. `.env.example` を `.env` に改名し、DeepLのAPI_KEYを入力する。
+3. 翻訳したいPDFをディレクトリに入れる。
+4. `main.py` を実行する。
