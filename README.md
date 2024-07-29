@@ -4,7 +4,7 @@
 
 ## 使い方
 
-1. 必要なmoduleをインストールする 
+1. `pip install -r requirements.txt`を実行し、必要なモジュールをインストールする
 2. `.env.example` を `.env` に改名し、DeepLのAPI_KEYを入力する。
 3. 翻訳したいPDFをディレクトリに入れる。
 4. `main.py` を実行する。
