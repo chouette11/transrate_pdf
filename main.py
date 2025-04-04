@@ -12,7 +12,9 @@ load_dotenv()
 # Keto Enol Tautomerism Ethyl Acetoacetate 1962
 pdf_dir = "pdf"
 
-pdf = "organics-02-00008-v3.pdf"
+# 1番目のファイルを取得
+pdfs = os.listdir(pdf_dir)
+pdf = pdfs[0]
 
 input_pdf = os.path.join(pdf_dir, pdf)
 
@@ -40,10 +42,6 @@ try:
 
                 # Acknowledgmentを含む場合
                 if "Acknowledgment" in text:
-                    break
-                
-                # Table 2.を含む場合
-                if "Table 2." in text:
                     break
                 
                 if text:
